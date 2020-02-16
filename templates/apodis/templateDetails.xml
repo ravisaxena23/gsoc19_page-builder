@@ -43,7 +43,7 @@
 	</languages>
 	<config>
 		<fields name="params">
-			<fieldset name="pagebuilder" label="TPL_APODIS_PAGEBUILDER">
+			<fieldset name="layoutbuilder" label="TPL_APODIS_PAGEBUILDER" id="layout-builder">
 				<field
 					name="grid"
 					type="pagebuilder"
