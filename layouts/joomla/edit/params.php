@@ -146,7 +146,7 @@ foreach ($fieldSets as $name => $fieldSet)
 			$id='layout-builder';
 			echo '<fieldset id="fieldset-' . $name . '" class="form-no-margin options-form ' . (!empty($fieldSet->class) ? $fieldSet->class : '') . '">';
 			echo '<legend>' . $label . '</legend>';
-			echo $id==="layout-builder" ?'<div>':'<div class="column-count-md-2 column-count-lg-3">';
+			echo '<div class="column-count-md-2 column-count-lg-3">';
 
 			$opentab = 2;
 		}
